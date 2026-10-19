@@ -1,0 +1,641 @@
+{
+  "users": [
+    {
+      "id": "user-demo-analyst",
+      "email": "analyst@deepfact.ai",
+      "name": "Lead Fact-Checking Analyst",
+      "role": "analyst",
+      "createdAt": "2026-10-19T19:23:34.854Z"
+    },
+    {
+      "id": "user-guest",
+      "email": "guest@deepfact.ai",
+      "name": "Guest Investigator",
+      "role": "guest",
+      "createdAt": "2026-10-19T19:23:34.854Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "report-1792438736666-29nff",
+      "userId": "user-demo-analyst",
+      "title": "In Ghaziabad, notable accidents at Ramlila and Dussehra melas include a break...",
+      "sourceType": "text",
+      "rawContent": "In Ghaziabad, notable accidents at Ramlila and Dussehra melas include a break-dance swing accident where a trolley detached and injured four people (including three children), an incident where a youth fell from a ride onto a tube light, and a separate late-night incident where a car drove into the Ramlila grounds and crushed sleeping laborers",
+      "domain": "",
+      "extractedDate": "2026-10-19T19:38:56.666Z",
+      "overallVerdict": "Insufficient Evidence",
+      "overallConfidence": 50,
+      "summary": "Authoritative public documentation is currently insufficient to definitively verify the majority of assertions in this content (1 of 1 claims unverified). Caution is warranted before treating these claims as factual.",
+      "claims": [
+        {
+          "id": "claim-1792438736665-0",
+          "claimText": "In Ghaziabad, notable accidents at Ramlila and Dussehra melas include a break-dance swing accident where a trolley detached and injured four people (including three children), an incident where a youth fell from a ride onto a tube light, and a separate late-night incident where a car drove into the Ramlila grounds and crushed sleeping laborers",
+          "originalSentence": "In Ghaziabad, notable accidents at Ramlila and Dussehra melas include a break-dance swing accident where a trolley detached and injured four people (including three children), an incident where a youth fell from a ride onto a tube light, and a separate late-night incident where a car drove into the Ramlila grounds and crushed sleeping laborers",
+          "charStartIndex": 0,
+          "charEndIndex": 345,
+          "importance": "medium",
+          "verdict": "Unverified",
+          "confidence": 50,
+          "explanation": "While related contextual sources were identified, neither definitive corroboration nor direct refutation was established in authoritative indexes.",
+          "evidence": [
+            {
+              "id": "ev-1792438736664-0-rvxs",
+              "title": "Swing breaks off at Ramlila fair in Ghaziabad, two minors among four ...",
+              "url": "https://www.hindustantimes.com/cities/noida-news/swing-breaks-off-at-ramlila-fair-in-ghaziabad-two-minors-among-four-hurt-101664648036628.html",
+              "domain": "hindustantimes.com",
+              "snippet": "Swing breaks off at Ramlila fair in Ghaziabad, two minors among four hurt ccording to police, the incident took place around 11pm, when the Ramlila event was in full swing and the amusement ride ...",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792438736665-1-6mn6",
+              "title": "Swing breaks down at Ghaziabad's Ramleela fair, 5 injured | Video",
+              "url": "https://www.indiatoday.in/india/story/swing-breaks-down-ghaziabad-ramleela-fair-2007140-2022-10-01",
+              "domain": "indiatoday.in",
+              "snippet": "Five people, including three children and two women, were injured after a swing broke down at the Ramleela fair in Ghaziabad on Friday. The incident took place when one of the hammocks of the swing, known as break dance, broke and overturned mid-way.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792438736665-2-8e6b",
+              "title": "Break Dance Swing Breaks Down at Ramleela Fair in Ghaziabad, 4 ...",
+              "url": "https://www.youtube.com/watch?v=W109vcSzP_M",
+              "domain": "youtube.com",
+              "snippet": "'Break Dance' Swing Breaks Down at Ramleela Fair in Ghaziabad, 4 Including 2 Children Injured. Watch#news #viralvideo #ghaziabad #breakingnews",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792438736665-3-1kiy",
+              "title": "ramleela: Viral Video: Swing breaks down in a Ramleela fair in ...",
+              "url": "https://timesofindia.indiatimes.com/videos/viral-videos/viral-video-swing-breaks-down-in-a-ramleela-fair-in-ghaziabad-4-injured/videoshow/94583295.cms",
+              "domain": "timesofindia.indiatimes.com",
+              "snippet": "A swing broke down in a Ramleela fair organised in Ghaziabad. 4 people got injured in the accident. The video of the accident has gone viral on social media.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792438736665-4-9en8",
+              "title": "Video: Break Dance Swing Broken at Ramleela Mela in UP's Ghaziabad, 5 ...",
+              "url": "https://www.latestly.com/socially/india/news/video-dance-swing-breaks-down-at-ramleela-mela-in-ups-ghaziabad-5-injured-4275533.html",
+              "domain": "latestly.com",
+              "snippet": "In an unfortunate mishap, a break dance swing at the Ramleela fair in Ghaziabad broke down. As a result, the joyride overturned and injured people on Friday. 5 people, including three children and two women, were injured.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            }
+          ],
+          "stanceBreakdown": {
+            "supporting": 0,
+            "refuting": 0,
+            "neutral": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalClaims": 1,
+        "supportedCount": 0,
+        "refutedCount": 0,
+        "mixedCount": 0,
+        "unverifiedCount": 1,
+        "truthScore": 35,
+        "sourcesAnalyzed": 5,
+        "processingTimeMs": 1669
+      },
+      "tags": [
+        "General News"
+      ],
+      "createdAt": "2026-10-19T19:38:56.666Z"
+    },
+    {
+      "id": "report-1792437866003-7bnbk",
+      "userId": "user-demo-analyst",
+      "title": "Plastic Eating Enzyme Study",
+      "sourceType": "text",
+      "rawContent": "A recent laboratory study reported that researchers discovered an engineered enzyme that degrades PET plastics in 24 hours. The findings were documented in scientific journals and tested across multiple recycling batches.",
+      "domain": "",
+      "extractedDate": "2026-10-19T19:24:26.003Z",
+      "overallVerdict": "Insufficient Evidence",
+      "overallConfidence": 58,
+      "summary": "Authoritative public documentation is currently insufficient to definitively verify the majority of assertions in this content (1 of 2 claims unverified). Caution is warranted before treating these claims as factual.",
+      "claims": [
+        {
+          "id": "claim-1792437864900-0",
+          "claimText": "A recent laboratory study reported that researchers discovered an engineered enzyme that degrades PET plastics in 24 hours.",
+          "originalSentence": "A recent laboratory study reported that researchers discovered an engineered enzyme that degrades PET plastics in 24 hours.",
+          "charStartIndex": 0,
+          "charEndIndex": 123,
+          "importance": "high",
+          "verdict": "Supported",
+          "confidence": 65,
+          "explanation": "Evidence leans towards supporting this statement, though independent corroboration is limited.",
+          "evidence": [
+            {
+              "id": "ev-1792437864899-0-fkvs",
+              "title": "Recent advances in enzyme engineering for improved ... - Nature",
+              "url": "https://www.nature.com/articles/s43246-025-00919-8",
+              "domain": "nature.com",
+              "snippet": "Commonly, performances of PET hydrolases engineered in the lab are reported in terms of fold change for activity (e.g., 3-fold higher products released by a certain time) and change in T m ...",
+              "stance": "NEUTRAL",
+              "confidence": 93,
+              "credibilityScore": 98,
+              "credibilityTier": "High Authority"
+            },
+            {
+              "id": "ev-1792437864899-1-a8xr",
+              "title": "Plastic-Eating Enzymes Designed by AI: How Close Are We to Real ...",
+              "url": "https://artificialscience.org/2026/10/plastic-eating-enzymes-designed-by-ai/",
+              "domain": "artificialscience.org",
+              "snippet": "AI-designed plastic-eating enzymes now break down PET in hours in the lab, yet the first industrial plant is on hold. A balanced look at what the evidence shows.",
+              "stance": "SUPPORTS",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792437864899-2-vqan",
+              "title": "Scientists discover a plastic-eating \"Pac-Man\" enzyme with a surprising ...",
+              "url": "https://www.sciencedaily.com/releases/2026/10/261014015509.htm",
+              "domain": "sciencedaily.com",
+              "snippet": "Scientists have discovered a remarkable \"Pac-Man enzyme\" that helps bacteria devour certain types of plastic and may offer new hope in the fight against plastic pollution. Researchers found ...",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792437864899-3-pkg4",
+              "title": "Scientists have engineered an enzyme that breaks down PET plastic, the ...",
+              "url": "https://latestsciencedrops.substack.com/p/scientists-have-engineered-an-enzyme",
+              "domain": "latestsciencedrops.substack.com",
+              "snippet": "The enzyme, a modified version of one originally discovered in a bacteria found in a Japanese recycling plant, attacks the chemical bonds in PET and breaks it down into its original building blocks. Those building blocks can then be used to make new plastic, creating a true circular recycling system.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792437864900-4-s2wu",
+              "title": "Deconstructing PET: Advances in enzyme engineering for sustainable ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1385894724056729",
+              "domain": "sciencedirect.com",
+              "snippet": "These discarded plastics have serious impacts on ecosystems and biodiversity, particularly marine organisms, as numerous studies have demonstrated the harm of plastic waste to over 800 species [3]. In order to address this pressing issue, it is imperative to seek viable methods for plastic degradation, particularly for PET plastics.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            }
+          ],
+          "stanceBreakdown": {
+            "supporting": 1,
+            "refuting": 0,
+            "neutral": 4
+          }
+        },
+        {
+          "id": "claim-1792437866003-1",
+          "claimText": "The findings were documented in scientific journals and tested across multiple recycling batches.",
+          "originalSentence": "The findings were documented in scientific journals and tested across multiple recycling batches.",
+          "charStartIndex": 124,
+          "charEndIndex": 221,
+          "importance": "medium",
+          "verdict": "Unverified",
+          "confidence": 50,
+          "explanation": "While related contextual sources were identified, neither definitive corroboration nor direct refutation was established in authoritative indexes.",
+          "evidence": [
+            {
+              "id": "ev-1792437866003-0-mhxi",
+              "title": "A systematic review of plastic recycling: technology, environmental ...",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12301532/",
+              "domain": "pmc.ncbi.nlm.nih.gov",
+              "snippet": "The number of articles in each category was determined by searching for the following keyword combinations: 'plastic recycling' + 'recycling technology', 'plastic recycling' + 'environmental analysis' and 'plastic recycling' + 'economic analysis'.",
+              "stance": "NEUTRAL",
+              "confidence": 88,
+              "credibilityScore": 93,
+              "credibilityTier": "High Authority"
+            },
+            {
+              "id": "ev-1792437866003-1-1wzc",
+              "title": "A systematic review of plastic recycling: technology, environmental ...",
+              "url": "https://journals.sagepub.com/doi/10.1177/0734242X241310658",
+              "domain": "journals.sagepub.com",
+              "snippet": "A systematic approach was used to identify and select relevant literature, with the primary literature search conducted using the Web of Science database. Figure 1 (a) presents a summary of recent articles published since 2010 in the areas of recycling technology, environmental analysis and economic analysis. The number of articles in each category was determined by searching for the following ...",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792437866003-2-jbbv",
+              "title": "Sustainable recycling of ABS: comprehensive thermophysical ...",
+              "url": "https://www.emerald.com/rpj/article/32/8/1848/1316335/Sustainable-recycling-of-ABS-comprehensive",
+              "domain": "emerald.com",
+              "snippet": "This study aims to evaluate and compare the recycling performance and sustainability of acrylonitrile butadiene styrene (ABS) plastic waste using two additive manufacturing pathways - filament- and granule-based three-dimensional (3D) printing - across multiple successive recycling cycles, through comprehensive thermophysical characterization and carbon footprint assessment.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792437866003-3-d603",
+              "title": "Recycling | Open Access Journal | MDPI",
+              "url": "https://www.mdpi.com/journal/recycling",
+              "domain": "mdpi.com",
+              "snippet": "Recycling Recycling is an international, peer-reviewed, open access journal on the recycling and reuse of material resources, including circular economy published monthly online by MDPI. Open Access — free for readers, with article processing charges (APC) paid by authors or their institutions.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            },
+            {
+              "id": "ev-1792437866003-4-j8n7",
+              "title": "Recycling for a sustainable future: Advancing resource efficiency ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0921344924003537",
+              "domain": "sciencedirect.com",
+              "snippet": "Recycling plastic yields positive benefit impacts for carbon emissions, and energy resources and negative for all tested material resources indicators, suggesting a trade-off between resources.",
+              "stance": "NEUTRAL",
+              "confidence": 60,
+              "credibilityScore": 65,
+              "credibilityTier": "Independent / Web"
+            }
+          ],
+          "stanceBreakdown": {
+            "supporting": 0,
+            "refuting": 0,
+            "neutral": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalClaims": 2,
+        "supportedCount": 1,
+        "refutedCount": 0,
+        "mixedCount": 0,
+        "unverifiedCount": 1,
+        "truthScore": 68,
+        "sourcesAnalyzed": 10,
+        "processingTimeMs": 2538
+      },
+      "tags": [
+        "General News"
+      ],
+      "createdAt": "2026-10-19T19:24:26.003Z"
+    },
+    {
+      "id": "report-demo-1",
+      "userId": "user-demo-analyst",
+      "title": "[Demo Fixture] Viral Social Media Claim: Moon Landing Film Props Found in Nevada Warehouse",
+      "sourceType": "social_media",
+      "rawContent": "Breaking investigation reveals that original 1969 Apollo 11 lunar landing movie stage props and high-intensity studio lamps were discovered in an abandoned warehouse in the Nevada desert. Officials reportedly recovered high-resolution cameras with 35mm film marked \"Apollo Project Studio B\". The discovery allegedly proves the historical moon landing was entirely filmed in a soundstage directed by Stanley Kubrick.",
+      "extractedDate": "2026-10-17T19:23:34.853Z",
+      "overallVerdict": "Likely False",
+      "overallConfidence": 96,
+      "summary": "DeepFact forensic verification detected critical factual inaccuracies. Out of 3 extracted claims, all 3 were decisively refuted by authoritative sources including NASA, Snopes, and Reuters. Independent retroreflector laser measurements and global astronomical observatories confirm the physical lunar landing.",
+      "tags": [
+        "Space",
+        "Hoax",
+        "Viral Social Media",
+        "NASA"
+      ],
+      "createdAt": "2026-10-17T19:23:34.854Z",
+      "metrics": {
+        "totalClaims": 3,
+        "supportedCount": 0,
+        "refutedCount": 3,
+        "mixedCount": 0,
+        "unverifiedCount": 0,
+        "truthScore": 0,
+        "sourcesAnalyzed": 9,
+        "processingTimeMs": 2450
+      },
+      "claims": [
+        {
+          "id": "claim-1-1",
+          "claimText": "Apollo 11 lunar landing movie stage props and studio lamps were discovered in a Nevada warehouse.",
+          "originalSentence": "Breaking investigation reveals that original 1969 Apollo 11 lunar landing movie stage props and high-intensity studio lamps were discovered in an abandoned warehouse in the Nevada desert.",
+          "importance": "high",
+          "verdict": "Refuted",
+          "confidence": 96,
+          "explanation": "Fact-checking records from Snopes and Reuters confirm that rumors of discovered \"moon landing props\" have circulated as known satirical parodies and internet hoaxes for decades. No such artifacts or government admissions have ever occurred.",
+          "stanceBreakdown": {
+            "supporting": 0,
+            "refuting": 3,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-1-1",
+              "title": "Fact Check: No \"Moon Landing Movie Props\" Found in Warehouse",
+              "url": "https://www.snopes.com/fact-check/moon-landing-stage-props/",
+              "domain": "snopes.com",
+              "snippet": "Claims that stage props or film sets proving the Apollo moon landings were faked have circulated as satire and internet hoaxes for decades. No such artifacts exist.",
+              "stance": "REFUTES",
+              "confidence": 95,
+              "credibilityScore": 94,
+              "credibilityTier": "High Authority"
+            },
+            {
+              "id": "ev-1-2",
+              "title": "Apollo Moon Landing Hoax Accusations Thoroughly Debunked",
+              "url": "https://www.nasa.gov/history/apollo-11-50th-anniversary-fact-sheet/",
+              "domain": "nasa.gov",
+              "snippet": "NASA and independent global observatories, including Soviet telemetry tracking, definitively confirmed the Apollo 11 lunar landings. Retroreflectors left on the lunar surface continue to be used by scientists worldwide.",
+              "stance": "REFUTES",
+              "confidence": 98,
+              "credibilityScore": 99,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        },
+        {
+          "id": "claim-1-2",
+          "claimText": "High-resolution cameras with 35mm film marked \"Apollo Project Studio B\" were recovered.",
+          "originalSentence": "Officials reportedly recovered high-resolution cameras with 35mm film marked \"Apollo Project Studio B\".",
+          "importance": "medium",
+          "verdict": "Refuted",
+          "confidence": 94,
+          "explanation": "Apollo lunar surface photography utilized custom 70mm Hasselblad 500EL cameras with specialized Kodak thin-base film, not 35mm film canisters. The claim reflects fabricated technical details.",
+          "stanceBreakdown": {
+            "supporting": 0,
+            "refuting": 2,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-1-3",
+              "title": "Apollo 11 Photography Equipment Archive",
+              "url": "https://www.nasa.gov/missions/apollo/apollo-11-cameras-and-photography/",
+              "domain": "nasa.gov",
+              "snippet": "Astronauts Neil Armstrong and Buzz Aldrin used customized medium-format Hasselblad 70mm data cameras on the lunar surface. 35mm motion picture studio equipment was never part of lunar inventory.",
+              "stance": "REFUTES",
+              "confidence": 96,
+              "credibilityScore": 99,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        },
+        {
+          "id": "claim-1-3",
+          "claimText": "The moon landing was entirely filmed in a soundstage directed by Stanley Kubrick.",
+          "originalSentence": "The discovery allegedly proves the historical moon landing was entirely filmed in a soundstage directed by Stanley Kubrick.",
+          "importance": "high",
+          "verdict": "Refuted",
+          "confidence": 98,
+          "explanation": "The Kubrick conspiracy has been repeatedly debunked by film historians, Stanley Kubrick's family, and NASA archives. Over 400,000 scientists, engineers, and contractors participated in the Apollo missions across hundreds of independent facilities.",
+          "stanceBreakdown": {
+            "supporting": 0,
+            "refuting": 2,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-1-4",
+              "title": "Reuters Fact Check: Stanley Kubrick did not fake the moon landing",
+              "url": "https://www.reuters.com/fact-check/kubrick-moon-landing-conspiracy-debunked/",
+              "domain": "reuters.com",
+              "snippet": "Kubrick's daughter Christiane Kubrick and biographer confirmed the rumors stem from a mockumentary titled \"Dark Side of the Moon\" (2002) which was a fictional French satire.",
+              "stance": "REFUTES",
+              "confidence": 96,
+              "credibilityScore": 95,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "report-demo-2",
+      "userId": "user-demo-analyst",
+      "title": "[Demo Fixture] FDA Approves Historic First CRISPR Gene-Editing Therapy Casgevy",
+      "sourceType": "url",
+      "sourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-treatment-sickle-cell-disease",
+      "domain": "fda.gov",
+      "rawContent": "The U.S. Food and Drug Administration approved Casgevy, the first therapy utilizing CRISPR/Cas9 genome editing technology for the treatment of sickle cell disease in patients aged 12 and older. Developed by Vertex Pharmaceuticals and CRISPR Therapeutics, the therapy modifies patients' hematopoietic stem cells to boost fetal hemoglobin production. In primary clinical trials, 29 out of 30 treated patients remained free from severe vaso-occlusive pain crises for at least 12 consecutive months.",
+      "extractedDate": "2026-10-14T19:23:34.854Z",
+      "overallVerdict": "Likely True",
+      "overallConfidence": 97,
+      "summary": "The core assertions in this content are well-corroborated by independent, high-credibility scientific and regulatory sources. Out of 3 extracted claims, all 3 were substantiated by official FDA documentation and Nature journal peer-reviewed reporting with zero contradictions.",
+      "tags": [
+        "Medicine",
+        "Genetics",
+        "FDA",
+        "Biotechnology"
+      ],
+      "createdAt": "2026-10-14T19:23:34.854Z",
+      "metrics": {
+        "totalClaims": 3,
+        "supportedCount": 3,
+        "refutedCount": 0,
+        "mixedCount": 0,
+        "unverifiedCount": 0,
+        "truthScore": 100,
+        "sourcesAnalyzed": 8,
+        "processingTimeMs": 1980
+      },
+      "claims": [
+        {
+          "id": "claim-2-1",
+          "claimText": "The FDA approved Casgevy as the first therapy utilizing CRISPR/Cas9 genome editing technology.",
+          "originalSentence": "The U.S. Food and Drug Administration approved Casgevy, the first therapy utilizing CRISPR/Cas9 genome editing technology for the treatment of sickle cell disease in patients aged 12 and older.",
+          "importance": "high",
+          "verdict": "Supported",
+          "confidence": 98,
+          "explanation": "Official FDA press releases and biomedical regulatory announcements confirm Casgevy (exagamglogene autotemcel) was granted landmark approval in December 2023 as the first CRISPR medicine.",
+          "stanceBreakdown": {
+            "supporting": 3,
+            "refuting": 0,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-2-1",
+              "title": "FDA Approves First Gene-Editing Therapy Casgevy for Sickle Cell Disease",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-treatment-sickle-cell-disease",
+              "domain": "fda.gov",
+              "snippet": "The U.S. Food and Drug Administration approved Casgevy, the first cell-based gene therapy using CRISPR/Cas9, for the treatment of sickle cell disease.",
+              "stance": "SUPPORTS",
+              "confidence": 99,
+              "credibilityScore": 97,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        },
+        {
+          "id": "claim-2-2",
+          "claimText": "The therapy was developed by Vertex Pharmaceuticals and CRISPR Therapeutics.",
+          "originalSentence": "Developed by Vertex Pharmaceuticals and CRISPR Therapeutics, the therapy modifies patients' hematopoietic stem cells to boost fetal hemoglobin production.",
+          "importance": "medium",
+          "verdict": "Supported",
+          "confidence": 96,
+          "explanation": "Verified corporate and scientific registries corroborate that Casgevy was co-developed by Vertex Pharmaceuticals and CRISPR Therapeutics.",
+          "stanceBreakdown": {
+            "supporting": 2,
+            "refuting": 0,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-2-2",
+              "title": "Associated Press: FDA clears breakthrough CRISPR treatment",
+              "url": "https://apnews.com/article/crispr-gene-editing-fda-approval-sickle-cell",
+              "domain": "apnews.com",
+              "snippet": "Regulators approved the therapy developed by Vertex Pharmaceuticals and CRISPR Therapeutics.",
+              "stance": "SUPPORTS",
+              "confidence": 95,
+              "credibilityScore": 95,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        },
+        {
+          "id": "claim-2-3",
+          "claimText": "29 out of 30 treated patients remained free from severe pain crises for at least 12 months in clinical trials.",
+          "originalSentence": "In primary clinical trials, 29 out of 30 treated patients remained free from severe vaso-occlusive pain crises for at least 12 consecutive months.",
+          "importance": "high",
+          "verdict": "Supported",
+          "confidence": 96,
+          "explanation": "Peer-reviewed clinical trial data published in Nature and New England Journal of Medicine confirm 29 of 30 patients reached complete freedom from severe vaso-occlusive crises.",
+          "stanceBreakdown": {
+            "supporting": 2,
+            "refuting": 0,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-2-3",
+              "title": "Historic CRISPR Landmark Cleared by Regulators",
+              "url": "https://www.nature.com/articles/d41586-023-03704-5",
+              "domain": "nature.com",
+              "snippet": "Clinical trials showed that 29 of 30 evaluable patients with severe sickle cell disease treated with Casgevy remained completely free of severe pain crises for at least 12 consecutive months.",
+              "stance": "SUPPORTS",
+              "confidence": 97,
+              "credibilityScore": 98,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "report-demo-3",
+      "userId": "user-demo-analyst",
+      "title": "[Demo Fixture] Analysis: Electric Vehicles Lifecycle Emissions Compared to Diesel Cars",
+      "sourceType": "text",
+      "rawContent": "A widely shared editorial asserts that electric vehicles produce more total carbon pollution than modern diesel vehicles. The article claims that manufacturing lithium-ion batteries emits twice the carbon footprint of building an entire diesel engine. Furthermore, it argues that because power grids rely heavily on coal, charging an EV causes equal or higher greenhouse emissions per mile than driving a Euro 6 diesel automobile.",
+      "extractedDate": "2026-10-11T19:23:34.854Z",
+      "overallVerdict": "Mixed",
+      "overallConfidence": 84,
+      "summary": "This article contains a blend of accurate factual elements and misleading oversimplifications. While battery manufacturing does generate higher initial upfront emissions, lifecycle emissions of electric vehicles are 50% to 70% lower than diesel vehicles across nearly all national energy grid mixes.",
+      "tags": [
+        "Energy",
+        "Environment",
+        "Automotive",
+        "Climate"
+      ],
+      "createdAt": "2026-10-11T19:23:34.854Z",
+      "metrics": {
+        "totalClaims": 3,
+        "supportedCount": 1,
+        "refutedCount": 1,
+        "mixedCount": 1,
+        "unverifiedCount": 0,
+        "truthScore": 50,
+        "sourcesAnalyzed": 7,
+        "processingTimeMs": 2150
+      },
+      "claims": [
+        {
+          "id": "claim-3-1",
+          "claimText": "Manufacturing lithium-ion batteries produces higher initial upfront carbon emissions than building a diesel engine.",
+          "originalSentence": "The article claims that manufacturing lithium-ion batteries emits twice the carbon footprint of building an entire diesel engine.",
+          "importance": "medium",
+          "verdict": "Supported",
+          "confidence": 88,
+          "explanation": "Life-cycle assessments by the EPA and European Environment Agency confirm battery raw mineral extraction and cathode fabrication produce higher initial carbon emissions during manufacturing than internal combustion engines.",
+          "stanceBreakdown": {
+            "supporting": 2,
+            "refuting": 0,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-3-1",
+              "title": "Lifecycle Analysis: Electric Vehicles vs Internal Combustion Engines",
+              "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+              "domain": "epa.gov",
+              "snippet": "Manufacturing electric vehicles produces higher initial greenhouse gas emissions due to battery production.",
+              "stance": "SUPPORTS",
+              "confidence": 92,
+              "credibilityScore": 96,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        },
+        {
+          "id": "claim-3-2",
+          "claimText": "Electric vehicles produce more total carbon pollution over their lifetime than modern diesel vehicles.",
+          "originalSentence": "A widely shared editorial asserts that electric vehicles produce more total carbon pollution than modern diesel vehicles.",
+          "importance": "high",
+          "verdict": "Refuted",
+          "confidence": 94,
+          "explanation": "Comprehensive lifecycle studies show EVs break even on manufacturing emissions within 1 to 2 years of operation and produce 60-70% lower net lifetime emissions than comparable diesel cars.",
+          "stanceBreakdown": {
+            "supporting": 0,
+            "refuting": 2,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-3-2",
+              "title": "Comparative Carbon Footprint of Electric and Diesel Vehicles",
+              "url": "https://www.theguardian.com/environment/2023/jul/28/electric-vehicles-emissions-study-gas-diesel",
+              "domain": "theguardian.com",
+              "snippet": "Studies by the International Council on Clean Transportation (ICCT) show European EVs emit 66% to 69% less greenhouse gas than comparable diesel vehicles over their full lifecycle.",
+              "stance": "REFUTES",
+              "confidence": 90,
+              "credibilityScore": 88,
+              "credibilityTier": "Mainstream News"
+            }
+          ]
+        },
+        {
+          "id": "claim-3-3",
+          "claimText": "Charging an EV on coal-reliant grids causes equal or higher emissions per mile than driving diesel.",
+          "originalSentence": "Furthermore, it argues that because power grids rely heavily on coal, charging an EV causes equal or higher greenhouse emissions per mile than driving a Euro 6 diesel automobile.",
+          "importance": "medium",
+          "verdict": "Mixed Evidence",
+          "confidence": 80,
+          "explanation": "Only in extreme grids with more than 85% coal generation (such as historical Polish or Indian sub-grids) do EV operational emissions approach modern clean diesel; however, global grids are rapidly transitioning to renewables.",
+          "stanceBreakdown": {
+            "supporting": 1,
+            "refuting": 1,
+            "neutral": 0
+          },
+          "evidence": [
+            {
+              "id": "ev-3-3",
+              "title": "Reuters Fact Check: Misleading claims on EV grid pollution",
+              "url": "https://www.reuters.com/fact-check/ev-battery-pollution-diesel-comparison/",
+              "domain": "reuters.com",
+              "snippet": "Claims that EVs pollute more than diesel rely on extreme high-coal grid scenarios or outdated battery manufacturing figures.",
+              "stance": "NEUTRAL",
+              "confidence": 85,
+              "credibilityScore": 95,
+              "credibilityTier": "High Authority"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
