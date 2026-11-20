@@ -25,136 +25,137 @@ Instead of simply labeling an article as real or fake, DeepFact examines its con
 
 Its goal is to make news verification more transparent, evidence-based, and understandable.
 
-**🚀 Key Features**
+## 🚀 Key Features
 
-Feature
+- **📰 Full Article Verification:** Analyzes complete news articles through URLs or pasted text instead of relying only on headlines.
 
-Description
+- **🎯 Intelligent Claim Extraction:** Identifies and separates individual factual claims from the submitted content for detailed verification.
 
-📰 Full Article Analysis
+- **🔎 Real-Time Evidence Retrieval:** Searches multiple online sources to gather relevant information and supporting evidence for each claim.
 
-Analyze complete articles through URLs or pasted text.
+- **🛡️ Source Credibility Assessment:** Evaluates the reliability of retrieved sources using domain credibility scoring and source reputation.
 
-🎯 Claim Extraction
+- **⚖️ Claim-Level Fact-Checking:** Classifies evidence as supporting, refuting, or neutral to provide more detailed verification results.
 
-Identify individual factual statements for verification.
+- **📊 Interactive Intelligence Dashboard:** Displays verification statistics, report history, and analytical insights.
 
-🔎 Evidence Retrieval
+- **🌐 3D Interactive Visualizations:** Features animated 3D graphics and WebGL elements for an engaging user experience.
 
-Retrieve relevant evidence from online sources.
+- **📄 Detailed Verification Reports:** Presents overall verdicts, individual claim assessments, evidence references, and explanations.
 
-🛡️ Source Credibility
+- **📥 Report Export:** Allows users to export verification results in Markdown and printable formats.
 
-Assess the reliability of information sources.
+---
 
-⚖️ Claim Verification
+## ⚙️ How DeepFact Works
 
-Classify evidence as supporting, refuting, or neutral.
+DeepFact follows a multi-stage Retrieval-Augmented Generation (RAG) verification pipeline:
 
-📊 Intelligence Dashboard
+1. **Content Extraction:** Extracts readable content from news URLs or user-submitted text.
+2. **Claim Identification:** Breaks the article into individual factual claims that can be independently verified.
+3. **Evidence Retrieval:** Searches available online sources for relevant supporting or contradicting information.
+4. **Source Credibility Assessment:** Evaluates the reliability of retrieved sources.
+5. **Claim Verification:** Compares claims against retrieved evidence and identifies supporting, refuting, or neutral information.
+6. **Verdict Generation:** Generates an overall assessment with claim-level results, evidence references, and explanations.
 
-Explore verification statistics and reports.
+---
 
-🌐 3D Visualizations
+## 🧰 Technology Stack
 
-Interactive 3D graphics and animated interface.
+**Frontend & User Interface**
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
 
-📄 Report Export
+**AI & Evidence Retrieval**
+- Google Gemini API
+- Retrieval-Augmented Generation (RAG)
+- Tavily Search API
+- DuckDuckGo Search
 
-Export verification results in Markdown and printable formats.
+**Backend & Visualization**
+- Next.js API Routes
+- Three.js
+- WebGL
+- JSON-based Local Database
 
-**⚙️ How It Works**
+---
 
-DeepFact follows a multi-stage verification pipeline:
+## 💻 Getting Started
 
-Content Extraction – Reads news articles from URLs or user-provided text.
+### Prerequisites
 
-Claim Identification – Breaks the content into individual verifiable claims.
+Make sure you have the following installed:
 
-Evidence Retrieval – Searches for relevant information across available sources.
+- Node.js 18 or later
+- npm
 
-Credibility Assessment – Evaluates source reliability and evidence relevance.
+### Installation
 
-Verification & Reporting – Generates claim-level verdicts with supporting evidence and references.
+**1. Clone the repository**
 
-**🧰 Technology Stack**
-
-Frontend & UI
-
-Next.js 14
-
-React 18
-
-TypeScript
-
-Tailwind CSS
-
-AI & Information Retrieval
-
-Google Gemini API
-
-Retrieval-Augmented Generation (RAG)
-
-Tavily Search API
-
-DuckDuckGo Search
-
-Graphics & Backend
-
-Three.js
-
-WebGL
-
-Next.js API Routes
-
-JSON-based Local Storage
-
-**💻 Getting Started**
-
-Prerequisites
-
-Node.js 18 or later
-
-npm
-
-Installation
-
-1. Clone the repository
-
+```bash
 git clone https://github.com/PaakhiAg/DeepFact.git
+```
 
-2. Navigate to the project
+**2. Navigate to the project directory**
 
+```bash
 cd DeepFact
+```
 
-3. Install dependencies
+**3. Install dependencies**
 
+```bash
 npm install
+```
 
-4. Configure environment variables
+**4. Configure environment variables**
 
-Create a .env.local file using .env.example as a reference and add your API keys where required.
+Create a `.env.local` file using `.env.example` as a reference.
 
-5. Start the development server
+Add the required API keys:
 
+```env
+GEMINI_API_KEY=your_gemini_api_key
+TAVILY_API_KEY=your_tavily_api_key
+```
+
+Keep your API keys private. Never commit `.env.local` to GitHub.
+
+**5. Start the development server**
+
+```bash
 npm run dev
+```
 
-6. Open the application
+**6. Open the application**
 
-Visit http://localhost:3000.
+Visit:
 
-**🎯 Project Objective**
+[http://localhost:3000](http://localhost:3000)
 
-The primary objective of DeepFact is to improve the transparency of online information verification by analyzing complete articles rather than relying exclusively on headlines or summaries.
+---
 
-By combining AI-assisted claim extraction, evidence retrieval, and source credibility assessment, the platform helps users examine information and make more informed decisions.
+## 🎯 Project Objective
 
-**⚠️ Disclaimer**
+The objective of DeepFact is to make online information verification more transparent and evidence-based.
 
-DeepFact is developed as a final-year academic project for educational and research purposes. Automated verification results should be reviewed alongside the original evidence and independent fact-checking.
+By analyzing complete articles, extracting individual claims, retrieving relevant evidence, and assessing source credibility, DeepFact helps users understand not just whether information may be misleading, but also why.
+
+---
+
+## ⚠️ Disclaimer
+
+DeepFact is an academic project developed for educational and research purposes. Its automated verification results should not replace independent fact-checking or human judgment. Users are encouraged to review the original evidence and sources before drawing conclusions.
+
+---
 
 <p align="center">
-  <strong>DeepFact — Verify Beyond the Headline.</strong>
-  <br/>
-  Developed as a Final-Year Major Project.
+
+  **DeepFact — Verify Beyond the Headline.**
+
+  *Developed as a Final-Year Major Project.*
+
 </p>
